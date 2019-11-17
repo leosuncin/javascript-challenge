@@ -1,0 +1,22 @@
+{
+  "name": "javascript-challenge",
+  "version": "1.0.0",
+  "description": "Javascript challenge - Focus El Salvador",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jaime Leonardo Suncin Cruz <leosuncin@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}
