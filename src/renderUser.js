@@ -52,9 +52,11 @@ export function renderUser(user) {
   const image = template.querySelector('.card__image');
   const title = template.querySelector('.card__title');
   const body = template.querySelector('.card__body');
+  const fullName = `${user.name.title} ${user.name.first} ${user.name.last}`;
 
-  image.setAttribute('src', user.picture.thumbnail);
-  title.innerText = `${user.name.title} ${user.name.first} ${user.name.last}`;
+  image.setAttribute('src', user.picture.large);
+  image.setAttribute('alt', fullName);
+  title.innerText = fullName;
   body.innerHTML = user.lorem.replace(/\.\s+/g, '.<br />');
 
   return template;
