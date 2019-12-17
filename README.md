@@ -1,5 +1,7 @@
 # Javascript Challenge
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/leosuncin/javascript-challenge.svg)](https://greenkeeper.io/)
+
 > Focus El Salvador
 
 ## Instructions
