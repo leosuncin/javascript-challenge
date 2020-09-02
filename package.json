@@ -13,7 +13,7 @@
   "author": "Jaime Leonardo Suncin Cruz <leosuncin@gmail.com>",
   "license": "GPL-3.0",
   "devDependencies": {
-    "eslint": "^7.8.0",
+    "eslint": "^7.8.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
     "parcel-bundler": "^1.12.4",
